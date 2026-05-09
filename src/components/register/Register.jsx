@@ -24,7 +24,7 @@ const Register = () => {
             setServerError('');
 
             
-            const response = await axios.post('http://localhost:5000/users/register', data);
+            const response = await axios.post('https://e-commerce-hekto-back-end.vercel.app/users/register', data);
 
            
             setServerMessage('Account was created successfully, Click on login icon in the top of the page to login');
