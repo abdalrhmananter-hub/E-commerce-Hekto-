@@ -1,0 +1,52 @@
+.fbackground{
+    background-color: #EEEFFB;
+}
+
+.ffontsHekto{
+    font-size: 34px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fbtn_color{
+    background-color:#FB2E86 !important ;
+}
+
+.fText_size{
+    font-size: 16px;
+    
+}
+
+.ffont_color{
+    color:#8A8FB9
+}
+
+a{
+    text-decoration: none;
+}
+
+.fhov{
+    color:#8A8FB9;
+}
+.fhov:hover{
+    color:#FB2E86;
+}
+
+.fsubHeaders{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.bottomFooter-color{
+    background-color: #E7E4F8;
+}
+
+.bottomFooter-fontcolor-size{
+    font-size: 16px;
+    color:#9DA0AE;
+}
+
+.footerIconeColors{
+    color:navy;
+}
