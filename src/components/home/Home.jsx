@@ -17,7 +17,7 @@ export default function Home() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/products');
+                const response = await axios.get('http://e-commerce-hekto-back-end.vercel.app/products');
                 setProducts(response.data.allProducts);
             } catch (error) {
                 console.error("Error fetching products:", error);
